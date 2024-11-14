@@ -1,0 +1,396 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------- CUSTOM CSS ------------------------ */
+body{
+  font-family: "Libre Baskerville", serif;
+
+}
+
+.heading-color {
+  color: #001430;
+}
+
+input:focus{
+  border-color: #e53b109d;
+}
+textarea:focus{
+  border-color: #e53b109d;
+}
+
+.blue-color {
+  color: #0c75ac;
+}
+
+.blue-bg {
+  background-color: #0c75ac;
+}
+
+.red-color {
+  color: #e53b10;
+}
+
+.red-bg {
+  background-color: #e53b10;
+}
+
+.green-color {
+  color: #019786;
+}
+
+.green-bg {
+  background-color: #019786;
+}
+
+.big-circle {
+  animation: scale 7s linear infinite;
+}
+
+.op-circle {
+  animation: circle-trans 7s linear infinite;
+}
+
+.home-banner {
+  background: url("./assets/hero-net-shape.png");
+  background-position: left center;
+  background-size: 800px;
+  background-repeat: no-repeat;
+}
+
+.blue-circle::before {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  background: linear-gradient(224.13deg, #00fff0 -8.75%, #008ff7 111.08%);
+  filter: blur(0.5px);
+  box-shadow: 0px 0px 20px #00fff0;
+}
+
+.blue-circle {
+  animation: left-right 9s linear infinite;
+  bottom: 92px;
+}
+
+.dropdown {
+  width: 900px;
+  left: -150%;
+}
+
+.process {
+  background: url(./assets/bgbg.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.admin-panel {
+  background: url(./assets/hero-left.webp);
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.triangle {
+  animation: circle-trans 5s linear infinite;
+}
+
+.blue-roundOne {
+  top: -10%;
+  left: -10%;
+}
+
+.red-round {
+  right: -10%;
+  top: 20%;
+}
+
+.blue-roundTwo {
+  bottom: -14%;
+  left: -10%;
+}
+
+.about-icon {
+  margin-top: -85px;
+  border: 12px solid #9cd6ff;
+  animation: border-scale 4s linear infinite;
+}
+
+.about-blue-cir {
+  top: 303px;
+  right: 500px;
+  animation: left-right 9s linear infinite;
+}
+
+.about-blue-cir::before {
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  border-radius: 100%;
+  background: linear-gradient(224.13deg, #00fff0 -8.75%, #008ff7 111.08%);
+  filter: blur(0.2px);
+  box-shadow: 0px 0px 18px #00ffeeac;
+}
+
+.about-health {
+  background-color: #fafafa;
+}
+
+.slick-list .slick-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-border {
+  border-top: 1px solid #ffffff50;
+}
+
+
+.platform-blue-circle{
+  bottom: 83px;
+  animation: left-right 9s linear infinite;
+}
+
+.platform-blue-circle::before {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  background: linear-gradient(224.13deg, #00fff0 -8.75%, #008ff7 111.08%);
+  filter: blur(0.5px);
+  box-shadow: 0px 0px 20px #00fff0;
+}
+
+
+.platTabs{
+  background-color: #fafafa;
+}
+
+.trans{
+  animation: circle-trans 7s linear infinite;
+}
+
+.platForm{
+  background-image: linear-gradient(90deg, #0c75ac 40%, #fff 0);
+}
+
+.space{
+  right: 630px;
+  top: 358px;
+  animation: left-right 7s linear infinite;
+}
+
+.space::before{
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  background: linear-gradient(224.13deg, #00fff0 -8.75%, #008ff7 111.08%);
+  filter: blur(0.5px);
+  box-shadow: 0px 0px 20px #00fff0;
+}
+
+.transformation{
+  background: url(./assets/page-header-bg.svg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.red-border{
+  border-color: #E95C38 !important;
+}
+
+.call{
+  transform: translate(-50%, -50%);
+}
+.blog{
+  background: url(./assets/page-header-bg.svg);
+}
+
+.blog-border{
+  border-top: 1px solid #7777778a;
+}
+
+.elip-para{
+  display: -webkit-box;
+  line-clamp: 4;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.contact-icon-box{
+  box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  transition: all 0.4s;
+}
+
+.contact-icon-box:hover{
+  cursor: pointer;
+  transform: scale(1.06);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2) ;
+}
+
+.btn-hover{
+  transition: all 0.3s;
+  border: 1px solid #ffffff;
+}
+.btn-hovers{
+  transition: all 0.3s;
+}
+.btn-hovers:hover{
+  background-color: white;
+  color:#e53b10;
+}
+
+.btn-hover:hover{
+  background-color: white;
+  color: #e53b10;
+  border: 1px solid #e53b10;
+}
+.blog-img{
+  transition: all 0.5s;
+}
+
+.blog-api{
+  box-shadow: 0px 0px 15px #00000020;
+}
+
+.blog-api:hover{
+   box-shadow: 0px 0px 25px #00000020;  
+}
+
+.blog-api:hover .blog-img{
+  transform: scale(1.15) rotate(10deg);
+}
+
+.contact-icon{
+  transition: all 0.6s;
+}
+
+.contact-icon-box:hover .contact-icon{
+  transform: rotateY(360deg);
+}
+
+.scale{
+ transition: all 0.4s;
+}
+
+.scale:hover{
+  transform: scale(1.05);
+}
+
+.error-icon{
+  animation: border-scale 5s linear infinite;
+}
+
+.product-img{
+  transition: all 0.6s;
+}
+
+.explore-box:hover .product-img{
+    transform: rotateY(360deg);
+}
+
+.offer-icon{
+ transition: all 0.6s;
+}
+
+.offer-box:hover .offer-icon{
+  transform: rotateY(360deg);
+}
+
+.emr-blue-cir{
+  background: linear-gradient(275.81deg, #ffac12 -1.99%, #ff30c5 99.35%);
+}
+
+.side-menu{
+  transition: all 0.5s;
+}
+
+.side-menu-show{
+  margin-right: -120%;
+}
+
+.spinner{
+  animation: spinner 4s infinite linear ;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.4);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes circle-trans {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes left-right {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-85px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(85px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes border-scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+@keyframes spinner {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+  
+}
